@@ -1,0 +1,29 @@
+{
+  "name": "realtime-database-example",
+  "version": "1.0.0",
+  "description": "- Simple application to learn how to implement realtime processing, like Firebase. - [Tutorial](https://youtu.be/5owqG-Z9ROw)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --inspect -r esm src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebas095/realtime-database-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebas095/realtime-database-example/issues"
+  },
+  "homepage": "https://github.com/sebas095/realtime-database-example#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "rethinkdb": "^2.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
