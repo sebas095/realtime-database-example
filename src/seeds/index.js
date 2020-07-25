@@ -1,1 +1,2 @@
-export * as DbSeed from "./db.seed";
+import DbSeed from "./db.seed";
+export { DbSeed };
